@@ -29,18 +29,17 @@ It is imperative for this lesson that you preview your template page in VS Studi
    - Within the HEAD, add your first and last name as the author.
    - Within the footer, add your MEID to the copyright and update the year, if necessary.
 0. Add an unordered list to the navigation element.
-   - Add five list items and add a placeholder link to each list item so that you have a total of five links.
-   - Change the display text to the links to display five pages:
+   - Add four list items and add a placeholder link to each list item so that you have a total of four links.
+   - Change the display text to the links to display the following pages:
       - Home
+      - About
       - Contact
-      - Computer Information
       - Services
-      - Accessibility
    - Do not change the target page for each link, as you'll be adding working links as you move on.
 
 ## Example Project
 This is an example of what the project should look like at this point in the lesson.
-![Screenshot of Example Project without CSS](https://i.imgur.com/QtAlQ7E.png)
+![Screenshot of Example Project without CSS](screenshots/9VN6uUPX3N.png)
 
 ## Style the Template
 
@@ -68,39 +67,41 @@ Use this as your opportunity to experiment with padding, margins etc. to adjust 
    - Set the text color to white using a color method of your choosing.
    - Add a top and bottom padding.
    - Remove all margins.
+0. Add a CSS comment that displays: **Navigation Bar Styles**
 0. Style the unordered list within the navigation element to:
 
    > **TIP:** Create an appropriate selector that targets only the unordered list within the navigation element. If you do not, any future lists you add to your page will be given the same styles you be applied above instead of only styling the navigation bar.
    - Remove the bullets from the list.
-   - Add a background color of your choosing to the full width of the navigation bar.
-   - Define the top and bottom padding to the same value and remove the left and right padding.
-
-   > **TIP:** Remember this value, you'll use it again shortly!
-   - Remove all margins.
+   - Add a background color using a color method of your choosing.
+   - Apply the <code>overflow: hidden;</code> property 
+   > **TIP:** As a reminder, the <code>overflow: hidden;</code> property is added to prevent the list items from going outside the navigation bar.
+   - Remove the margin and paddings for all sides of the element.
 0. Style the list items within the navigation element to: 
-   - Display side-by-side (horizontally). Keep the padding you applied in the previous step.
+   - Float the elements to the left.
 0. Style the links within the navigation element to:
+   - Display the element to appear as block elements.
+   > **TIP:** This will allow you to specify the box model (height, width, padding, margins, etc.)
    - Set the text color to white using a color method of your choosing.
    - Remove the underline below each link.
-   - Define the padding using the value you used for the unordered list, use the same value for all four sides.
-
-   > **TIP:** Notice if you don't use the same values what happens to your navigation bar - elements will overlap, giving your navigation and unfinished appearance.
+   - Define the padding on all sides to the same value.
 0. Style the hover state of the navigation links to:
    - Add a background color of your choosing.
+   > **TIP:** This should change the background color of the links when a user moves their mouse to hover over the links.
 0. Add a CSS comment that displays: **Main Styles**
 0. Style the main element to:
-   - Add a background color of your choosing.
-   - Define the padding on all four sides to the same value.
+   - Define the padding on all sides to the same value.
 0. Add a CSS comment that displays: **Footer Styles**
 0. Style the footer to:
    - Add a background color of your choosing.
    - Set the text color to white using a color method of your choosing.
-   - Define the padding on all four sides to the same value.
+   - Define the padding on all sides to the same value.
    - Center align the text.
+0. Style the links within the footer to:
+   - Set the text color to white using a color method of your choosing.
 
  ## Example Project
  Below is a rendering of an example project, your web page may not appear the exact same.
-![Screenshot of Example Project with CSS](https://i.imgur.com/JauCRqX.png)
+![Screenshot of Example Project with CSS](screenshots/9Rq0olL6q1.png)
 
 
 ## Submit the Project
