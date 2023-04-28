@@ -104,7 +104,7 @@ Use this as your opportunity to experiment with padding, margins etc. to adjust 
    - Set the text color to white using a color method of your choosing.
 
  ## Example Project
- Below is a rendering of an example project, your web page may not appear the exact same.
+ Below is a rendering of an example project. Your page may look slightly different depending on your color, font, and spacing choices. 
 ![Screenshot of Example Project with CSS](screenshots/9Rq0olL6q1.png)
 
 
