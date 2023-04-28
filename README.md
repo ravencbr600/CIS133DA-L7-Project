@@ -48,7 +48,7 @@ This is an example of what the project should look like at this point in the les
 
 For the next steps you will need to apply appropriate CSS declaration blocks and selectors to style the page according to the directions. For any CSS property values not specifically defined for you, you will need to determine the value on your own. 
 
-Use this as your opportunity to experiment with padding, margins etc. to adjust the look and feel of the web page!
+Use this as your opportunity to experiment with padding, margins etc. to adjust the look and feel of the web page! Also, you will have an opportunity in a few steps to select your own background and text colors. Use the [Rio Salado Color Picker Tool](https://riosalado.coursearc.com/content/cis133da-in-v12/lesson-5-introduction-css/rio-salado-college-color-tool/) if you need help selecting your colors.
 
 1. Add an internal style sheet to the appropriate section.
 2. Style the body to:
@@ -56,9 +56,7 @@ Use this as your opportunity to experiment with padding, margins etc. to adjust 
    - Set the default font-size to 100%.
 3. Add a CSS comment that displays: **Header Styles**
 4. Style the header to:
-   - Apply a background image using the image provided to you.
-
-     > **TIP:** The URL is relative to the location of the style sheet, not the web page. Review [Lesson 6: Background Images](https://riosalado.coursearc.com/content/cis133da-in-v12/lesson-6-links-lists-and-images/background-images) for more information.
+   - Apply a background image using the background.jpg image provided to you.
    - Set the background so it does not repeat
    - Center position the background
    - Adjust the background size to cover the entire element.
