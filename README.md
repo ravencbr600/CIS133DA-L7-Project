@@ -27,15 +27,10 @@ It is imperative for this lesson that you **preview** your template page in VS S
 
 ## Adjust the Template
 
-1. Open the **template.html** file and update the following:
+1. Open the **template.html** file and update the following within the HEAD:
    - Within the HTML comment, add your section number and the lesson number.
-   - Within the HEAD, add your first and last name as the author.
-   - Within the HEAD, replace the title with `Lesson 7 Project`.
-   - Within the footer, add the following copyright information **on a separate line** within the already existing paragraph: 
-      - Add a caption for an image that displays: ``Photo by Clint Bustrillos``. Link the source of the image using creator of the image as the display text.
-      - Update your MEID and, if necessary, the year.
-      - Apply an appropriate text-level semantic element so all copyright information displays as small print.
-   > **TIP:** See the example image below.
+   - Add your first and last name as the author.
+   - Replace the TITLE with `Lesson 7 Project`.
 2. Add an unordered list to the navigation element.
    - Add four list items and add a placeholder link to each list item so that you have a total of four links.
    - Change the display text to the links to display the following pages:
@@ -44,6 +39,11 @@ It is imperative for this lesson that you **preview** your template page in VS S
       - Contact
       - Services
    - Do not change the target page for each link, as you'll be adding working links as you move on.
+3. Within the footer include the following: 
+      - Add a caption for an image **on a separate line** within the already existing paragraph that displays: `Photo by Clint Bustrillos`. Link the source of the image using creator of the image as the display text. Image source: `https://unsplash.com/@clintbustrillos`
+      - Update your MEID and, if necessary, the year.
+      - Apply an appropriate text-level semantic element so *all* copyright information displays as small print.
+   > **TIP:** See the example image below.
 
 ## Example Project
 This is an example of what the project should look like at this point in the lesson.
