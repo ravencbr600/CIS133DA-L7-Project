@@ -42,7 +42,7 @@ It is imperative for this lesson that you **preview** your template page in VS S
    - Do not change the target page for each link, as you'll be adding working links as you move on.
 
 ## Example Project
-This is an example of what the project should look like at this point in the lesson. (Minus the link to the image photo, which will be added later.)
+This is an example of what the project should look like at this point in the lesson.
 ![Screenshot of Example Project without CSS](screenshots/9VN6uUPX3N.png)
 
 ## Style the Template
