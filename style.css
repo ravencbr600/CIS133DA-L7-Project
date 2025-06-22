@@ -1,19 +1,31 @@
-/*Lesson 7 Project Styles*/
-
+/* Main Styles */
+main{
+    padding: 20px;
+}
+/* Footer Styles */
+footer {
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer a {
+    color: white;
+}
 body {
 margin: 0;
 padding: 0;
-fron-family: Arial, sans-serif;
+font-family: Arial, sans-serif;
 }
 
 header {
-    background-color #333;
+    background-color: #333;
     color: white;
-    padding:padding 20px;
+    padding:20px;
     }
 
     nav ul {
-        list-style-typr: none;
+        list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
@@ -23,31 +35,13 @@ header {
     nav li {
         float: left;
     }
-
-    nav li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 20px;
-        text-decoration: none;
-    }
-
-    nav li a:hover {
-        background-color: #1e90ff;
-    }
-
-    footer {
-        background-color: #eee;
-        text-align: center;
-        padding: 15px;
-        margin-top: 30px;
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
 }
-
-footer a {
-    color: #333;
-    text-decoration: none;
-    }
-
-    footer a:hover {
-        text-decoration: underline;
-    }
+nav li a:hover {
+    background-color: #1e90ff;
+}
